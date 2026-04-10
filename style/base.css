@@ -1,0 +1,23 @@
+/* default browser styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    /* Colors */
+    --color-primary: #007ECD;
+    --color-primary-hover: #005f9e;
+    --color-primary-soft: rgba(0, 126, 205, 0.06);
+    --color-white: #FFFFFF;
+    --color-black: #000000;
+    --color-text-blue: #186294;
+  
+    /* Fonts */
+    --font-primary: "Inter", sans-serif;
+    --font-heading: "Poppins", sans-serif;
+}
+  body {
+    font-family: var(--font-primary);
+  }
