@@ -97,7 +97,7 @@
   outline: none;
 }
 
-/* reduced motion */
+/* Accessibility: disable animations if user prefers reduced motion*/
 @media (prefers-reduced-motion: reduce) {
   .nav-links a,
   .nav-links a::before,

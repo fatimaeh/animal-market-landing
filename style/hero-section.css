@@ -26,7 +26,6 @@
   left: 70px;
   top: 52%;
   transform: translateY(-50%);
-
   max-width: 520px;
   color: var(--color-white);
 }
