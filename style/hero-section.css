@@ -7,8 +7,12 @@
   width: 100%;
   height: 880px;
 
-  /* Background image setup */
-  background-image: url("../image/background.png");  
+  /* Fallback */
+  background-image: url("../image/background.png");
+
+  /* Modern format */
+  background-image: url("../image/background.webp");
+
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
