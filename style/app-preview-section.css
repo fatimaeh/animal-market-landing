@@ -3,77 +3,78 @@
    Screenshots of the mobile app
 */
 
+/* Main section */
 .app-preview {
-    padding: 80px 0;
-    background-color: #f5f5f5;
-  }
-  
-  .app-preview-container {
-    max-width: 1120px;
-    margin: 0 auto;
-    text-align: center;
-  }
-  
-  /* header */
-  .app-preview-header {
-    margin-bottom: 48px;
-  }
-  
-  .app-preview-header h2 {
-    font-size: 28px;
-    font-weight: 700;
-    color: #2c2c2c;
-    margin-bottom: 12px;
-  }
-  
-  .app-preview-header p {
-    font-size: 16px;
-    color: var(--color-primary);
-  }
-  
-  /* list */
-  .app-preview-list {
-    display: flex;
-    justify-content: center;
-    gap: 60px;
-  }
-  
-  /* item */
-  .app-preview-item {
-    max-width: 260px;
-  }
-  
-  /* phone image */
-  .app-preview-item img {
-    width: 100%;
-    height: auto;
-    display: block;
-    margin-bottom: 20px;
-  }
-  
-  /* title */
-  .app-preview-item h3 {
-    font-size: 20px;
-    font-weight: 700;
-    margin-bottom: 6px;
-    color: #282828;
-    line-height: 28px;
-    letter-spacing: -0.45px;
-  }
-  
-  /* text */
-  .app-preview-item p {
-    font-size: 16px;
-    color: var(--color-primary);
-    line-height: 24px;
-    letter-spacing: -0.31px;
-    font-weight: 400;
+  padding: 80px 0;
+  background-color: #f5f5f5;
+}
 
-  }
+/* Centered container */
+.app-preview-container {
+  max-width: 1120px;
+  margin: 0 auto;
+  text-align: center;
+}
 
+/* Header (title + description) */
+.app-preview-header {
+  margin-bottom: 48px;
+}
 
-  ul {
-    list-style: none;
-    padding: 0;
-    margin: 0;
-  }
+.app-preview-header h2 {
+  font-size: 28px;
+  font-weight: 700;
+  color: #2c2c2c;
+  margin-bottom: 12px;
+}
+
+.app-preview-header p {
+  font-size: 16px;
+  color: var(--color-primary);
+}
+
+/* Screenshots list */
+.app-preview-list {
+  display: flex;
+  justify-content: center;
+  gap: 60px;
+}
+
+/* Single preview item */
+.app-preview-item {
+  max-width: 260px;
+}
+
+/* Phone image */
+.app-preview-item img {
+  width: 100%;
+  height: auto;
+  display: block;
+  margin-bottom: 20px;
+}
+
+/* Item title */
+.app-preview-item h3 {
+  font-size: 20px;
+  font-weight: 700;
+  margin-bottom: 6px;
+  color: #282828;
+  line-height: 28px;
+  letter-spacing: -0.45px;
+}
+
+/* Item description */
+.app-preview-item p {
+  font-size: 16px;
+  color: var(--color-primary);
+  line-height: 24px;
+  letter-spacing: -0.31px;
+  font-weight: 400;
+}
+
+/* Reset list styles */
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}

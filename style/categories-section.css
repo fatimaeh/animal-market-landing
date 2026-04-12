@@ -3,137 +3,132 @@
    Category cards with image thumbnails
 */
 
+/* Main section */
 .categories {
-    padding: 46px 0 30px;
-    background-color: var(--color-white);
-  }
-  
-  .categories-container {
-    max-width: 1120px;
-    margin: 0 auto;
-  }
-  
-  .categories-header {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    margin-bottom: 26px;
-  }
-  
-  .categories-header h2 {
-    font-size: 24px;
-    line-height: 40px;
-    letter-spacing: 0.37px;
-    font-weight: 700;
-    color: #282828;
-  }
-  
-  .view-all {
-    position: relative;
-    display: inline-block;
-    padding: 6px 12px;
-    border-radius: 999px;
-  
-    font-size: 14px;
-    font-weight: 600;
-    color: var(--color-primary);
-    text-decoration: none;
-  
-    transition:
-      color 0.25s ease,
-      background-color 0.25s ease;
-  }
-  
-  
-  /* outline layers */
-  .view-all::before,
-  .view-all::after {
-    content: "";
-    position: absolute;
-    inset: 0;
-    border-radius: inherit;
-    pointer-events: none;
-  }
-  
-  
-  /* top + bottom */
-  .view-all::before {
-    border-top: 2px solid var(--color-primary);
-    border-bottom: 2px solid var(--color-primary);
-    transform: scaleX(0);
-    transform-origin: center;
-    transition: transform 0.3s ease;
-  }
-  
-  
-  /* left + right */
-  .view-all::after {
-    border-left: 2px solid var(--color-primary);
-    border-right: 2px solid var(--color-primary);
-    transform: scaleY(0);
-    transform-origin: center;
-    transition: transform 0.3s ease 0.08s;
-  }
-  
-  
-  /* hover */
-  .view-all:hover::before {
-    transform: scaleX(1);
-  }
-  
-  .view-all:hover::after {
-    transform: scaleY(1);
-  }
-  
-  .categories-list {
-    list-style: none;
-    display: grid;
-    grid-template-columns: repeat(5, 1fr);
-    gap: 18px;
-    padding: 0;
-    margin: 0;
-  }
-  
-  .category-card {
-    position: relative;
-    display: block;
-    width: 100%;
-    height: 190px;
-    border-radius: 16px;
-    overflow: hidden;
-    text-decoration: none;
-  }
-  
-  .category-card img {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-    display: block;
-    transition: transform 0.3s ease;
-  }
-  
-  .category-card::after {
-    content: "";
-    position: absolute;
-    inset: 0;
-    background: linear-gradient(
-      to top,
-      rgba(0, 0, 0, 0.58) 0%,
-      rgba(0, 0, 0, 0.22) 42%,
-      rgba(0, 0, 0, 0) 72%
-    );
-  }
-  
-  .category-card:hover img {
-    transform: scale(1.05);
-  }
+  padding: 46px 0 30px;
+  background-color: var(--color-white);
+}
 
+/* Centered container */
+.categories-container {
+  max-width: 1120px;
+  margin: 0 auto;
+}
 
+/* Header (title + view all link) */
+.categories-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 26px;
+}
 
+.categories-header h2 {
+  font-size: 24px;
+  line-height: 40px;
+  letter-spacing: 0.37px;
+  font-weight: 700;
+  color: #282828;
+}
 
+/* "View all" link */
+.view-all {
+  position: relative;
+  display: inline-block;
+  padding: 6px 12px;
+  border-radius: 999px;
 
+  font-size: 14px;
+  font-weight: 600;
+  color: var(--color-primary);
+  text-decoration: none;
 
+  transition:
+    color 0.25s ease,
+    background-color 0.25s ease;
+}
 
+/* Border animation layers */
+.view-all::before,
+.view-all::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  border-radius: inherit;
+  pointer-events: none;
+}
 
+/* Top + bottom borders */
+.view-all::before {
+  border-top: 2px solid var(--color-primary);
+  border-bottom: 2px solid var(--color-primary);
+  transform: scaleX(0);
+  transform-origin: center;
+  transition: transform 0.3s ease;
+}
 
+/* Left + right borders */
+.view-all::after {
+  border-left: 2px solid var(--color-primary);
+  border-right: 2px solid var(--color-primary);
+  transform: scaleY(0);
+  transform-origin: center;
+  transition: transform 0.3s ease 0.08s;
+}
 
+/* Hover effect */
+.view-all:hover::before {
+  transform: scaleX(1);
+}
+
+.view-all:hover::after {
+  transform: scaleY(1);
+}
+
+/* Categories grid */
+.categories-list {
+  list-style: none;
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 18px;
+  padding: 0;
+  margin: 0;
+}
+
+/* Category card */
+.category-card {
+  position: relative;
+  display: block;
+  width: 100%;
+  height: 190px;
+  border-radius: 16px;
+  overflow: hidden;
+  text-decoration: none;
+}
+
+/* Category image */
+.category-card img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+  transition: transform 0.3s ease;
+}
+
+/* Dark gradient overlay for text readability */
+.category-card::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(
+    to top,
+    rgba(0, 0, 0, 0.58) 0%,
+    rgba(0, 0, 0, 0.22) 42%,
+    rgba(0, 0, 0, 0) 72%
+  );
+}
+
+/* Hover zoom effect */
+.category-card:hover img {
+  transform: scale(1.05);
+}

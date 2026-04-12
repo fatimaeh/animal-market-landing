@@ -2,19 +2,22 @@
    CTA DOWNLOAD + FOOTER
 */
 
+/* Main CTA section with gradient background */
 .cta-download {
   padding: 88px 0 84px;
   background: radial-gradient(circle at left center, rgba(255, 255, 255, 0.14) 0%, transparent 18%),
-              radial-gradient(circle at right center, rgba(255, 255, 255, 0.14) 0%, transparent 18%),
-              linear-gradient(90deg,#007ECD 0%, #00A9BA 100%);
+ radial-gradient(circle at right center, rgba(255, 255, 255, 0.14) 0%, transparent 18%),
+  linear-gradient(90deg,#007ECD 0%, #00A9BA 100%);
   text-align: center;
 }
 
+/* Centered container */
 .cta-download-container {
   max-width: 1120px;
   margin: 0 auto;
 }
 
+/* Main heading */
 .cta-download h2 {
   max-width: 980px;
   margin: 0 auto 28px;
@@ -25,6 +28,7 @@
   color: var(--color-white);
 }
 
+/* CTA description text */
 .cta-download-text {
   margin: 0 0 34px;
   font-size: 16px;
@@ -33,6 +37,7 @@
   color:#FFFFFF;
 }
 
+/* Buttons container */
 .cta-download-buttons {
   display: flex;
   justify-content: center;
@@ -40,6 +45,7 @@
   margin-bottom: 26px;
 }
 
+/* Small note text under buttons */
 .cta-download-note {
   margin: 0;
   font-size: 15px;
@@ -47,16 +53,19 @@
   color: rgba(255, 255, 255, 0.9);
 }
 
+/* Footer section */
 .site-footer {
   background-color: #252525;
   padding: 42px 0 34px;
 }
 
+/* Footer container */
 .site-footer-container {
   max-width: 1120px;
   margin: 0 auto;
 }
 
+/* Top part of footer (columns) */
 .site-footer-top {
   display: flex;
   justify-content: space-between;
@@ -65,10 +74,12 @@
   border-bottom: 1px solid rgba(255, 255, 255, 0.08);
 }
 
+/* Brand section (logo + text) */
 .footer-brand {
   max-width: 220px;
 }
 
+/* Footer logo */
 .footer-logo {
   width: 84px;
   height: auto;
@@ -76,6 +87,7 @@
   margin-bottom: 20px;
 }
 
+/* Brand description */
 .footer-brand p {
   margin: 0;
   font-size: 15px;
@@ -83,11 +95,13 @@
   color: rgba(255, 255, 255, 0.72);
 }
 
+/* Footer links columns */
 .footer-links {
   display: flex;
   gap: 90px;
 }
 
+/* Column titles */
 .footer-column h3 {
   margin: 0 0 18px;
   font-size: 16px;
@@ -96,12 +110,14 @@
   color: var(--color-white);
 }
 
+/* Remove default list styles */
 .footer-column ul {
   list-style: none;
   padding: 0;
   margin: 0;
 }
 
+/* Space between list items */
 .footer-column li + li {
   margin-top: 10px;
 }
@@ -116,12 +132,13 @@
   transition: color 0.25s ease, transform 0.2s ease;
 }
 
-/* Hover effect */
+/* Hover effect for links */
 .footer-column a:hover {
   color: #007ECD;
   transform: translateX(4px);
 }
 
+/* Bottom footer (copyright + socials) */
 .site-footer-bottom {
   display: flex;
   justify-content: space-between;
@@ -129,6 +146,7 @@
   padding-top: 24px;
 }
 
+/* Copyright text */
 .site-footer-bottom p {
   margin: 0;
   font-size: 14px;
@@ -136,13 +154,14 @@
   color: rgba(255, 255, 255, 0.6);
 }
 
+/* Social icons container */
 .footer-socials {
   display: flex;
   align-items: center;
   gap: 14px;
 }
 
-
+/* Social icon buttons */
 .footer-socials a {
   width: 40px;
   height: 40px;
@@ -154,17 +173,16 @@
   transition: background-color 0.25s ease, transform 0.2s ease;
 }
 
+/* Hover effect for social icons */
 .footer-socials a:hover {
   background-color: #007ECD;
   transform: translateY(-2px);
 }
 
+/* Social icon images */
 .footer-socials img {
   width: 18px;
   height: 18px;
   object-fit: contain;
   display: block;
 }
-
-
-

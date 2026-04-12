@@ -1,102 +1,109 @@
-
-
-  /* 
+/* 
    BENEFITS SECTION
    Why choose Animal Market cards
 */
 
+/* Main section */
 .benefits {
-    padding: 76px 0 86px;
-    background-color: #F8F8F8;
-  }
-  
-  .benefits-container {
-    max-width: 1120px;
-    margin: 0 auto;
-  }
-  
-  .benefits-header {
-    text-align: center;
-    margin-bottom: 44px;
-  }
-  
-  .benefits-header h2 {
-    margin: 0 0 10px;
-    font-family: var(--font-heading);
-    font-size: 36px;
-    line-height: 40px;
-    font-weight: 700;
-    letter-spacing: 0.37px;
-    color: #2c2c2c;
-  }
-  
-  .benefits-header p {
-    margin: 0;
-    font-size: 18px;
-    line-height: 28px;
-    font-weight: 400;
-    letter-spacing:-0.44px ;
-    color: var(--color-text-blue);
-  }
-  
-  .benefits-list {
-    list-style: none;
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    gap: 22px;
-    padding: 0;
-    margin: 0;
-  }
-  
-  .benefit-card {
-    min-height: 150px;
-    padding: 28px 20px 22px;
-    background-color: var(--color-white);
-    border-radius: 20px;
-    text-align: center;
-    box-shadow: 0 4px 18px rgba(0, 0, 0, 0.05);
-  }
+  padding: 76px 0 86px;
+  background-color: #F8F8F8;
+}
 
-    .benefit-icon {
-        width: 56px;
-        height: 56px;
-        border-radius: 50%;
-        background-color: #e8f3ff;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        margin: 0 auto 18px; 
-      }
-  
-  
-  .benefit-icon img {
-    width: 24px;
-    height: 24px;
-    object-fit: contain;
-  }
-  
-  .benefit-icon--orange {
-    background-color: #fff1e5;
-  }
-  
-  .benefit-icon--cyan {
-    background-color: #e8fbff;
-  }
-  
-  .benefit-card h3 {
-    margin: 0 0 10px;
-    font-family: var(--font-heading);
-    font-size: 16px;
-    line-height: 24px;
-    font-weight: 700;
-    color: #2c2c2c;
-  }
-  
-  .benefit-card p {
-    margin: 0;
-    font-family: var(--font-primary);
-    font-size: 14px;
-    line-height: 20px;
-    font-weight: 400;
-    color: #2f7dc3;
-  }
+/* Centered container */
+.benefits-container {
+  max-width: 1120px;
+  margin: 0 auto;
+}
+
+/* Header (title + description) */
+.benefits-header {
+  text-align: center;
+  margin-bottom: 44px;
+}
+
+.benefits-header h2 {
+  margin: 0 0 10px;
+  font-family: var(--font-heading);
+  font-size: 36px;
+  line-height: 40px;
+  font-weight: 700;
+  letter-spacing: 0.37px;
+  color: #2c2c2c;
+}
+
+.benefits-header p {
+  margin: 0;
+  font-size: 18px;
+  line-height: 28px;
+  font-weight: 400;
+  letter-spacing: -0.44px;
+  color: var(--color-text-blue);
+}
+
+/* Benefits grid */
+.benefits-list {
+  list-style: none;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 22px;
+  padding: 0;
+  margin: 0;
+}
+
+/* Single benefit card */
+.benefit-card {
+  min-height: 150px;
+  padding: 28px 20px 22px;
+  background-color: var(--color-white);
+  border-radius: 20px;
+  text-align: center;
+  box-shadow: 0 4px 18px rgba(0, 0, 0, 0.05);
+}
+
+/* Icon container (circle background) */
+.benefit-icon {
+  width: 56px;
+  height: 56px;
+  border-radius: 50%;
+  background-color: #e8f3ff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto 18px;
+}
+
+/* Icon image */
+.benefit-icon img {
+  width: 24px;
+  height: 24px;
+  object-fit: contain;
+}
+
+/* Icon color variations */
+.benefit-icon--orange {
+  background-color: #fff1e5;
+}
+
+.benefit-icon--cyan {
+  background-color: #e8fbff;
+}
+
+/* Card title */
+.benefit-card h3 {
+  margin: 0 0 10px;
+  font-family: var(--font-heading);
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 700;
+  color: #2c2c2c;
+}
+
+/* Card description */
+.benefit-card p {
+  margin: 0;
+  font-family: var(--font-primary);
+  font-size: 14px;
+  line-height: 20px;
+  font-weight: 400;
+  color: #2f7dc3;
+}
