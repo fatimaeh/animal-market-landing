@@ -1,360 +1,717 @@
 <!DOCTYPE html>
 <html lang="fr">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    
-      
-    <!-- Page title -->
-    <title>Animal Market</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <!-- Main stylesheets -->
-    <link rel="stylesheet" href="style/base.css">
-    <link rel="stylesheet" href="style/header.css">
-    <link rel="stylesheet" href="style/hero-section.css">
-    <link rel="stylesheet" href="style/categories-section.css">
-    <link rel="stylesheet" href="style/benefits-section.css">
-    <link rel="stylesheet" href="style/app-preview-section.css">
-    
-    
-    <!-- JavaScript -->
-    <script src="script/main.js" defer></script>
-    
+  <!-- Page title -->
+  <title>Animal Market</title>
 
+  <!-- Main stylesheets -->
+  <link rel="stylesheet" href="style/base.css">
+  <link rel="stylesheet" href="style/header.css">
+  <link rel="stylesheet" href="style/hero-section.css">
+  <link rel="stylesheet" href="style/categories-section.css">
+  <link rel="stylesheet" href="style/benefits-section.css">
+  <link rel="stylesheet" href="style/app-preview-section.css">
+  <link rel="stylesheet" href="style/promotions-section.css">
+  <link rel="stylesheet" href="style/testimonials-section.css">
+  <link rel="stylesheet" href="style/cta-footer-section.css">
+
+  <!-- JavaScript -->
+  <script src="script/main.js" defer></script>
 </head>
 
 <body>
 
-    <!--header / navigation-->
-    <header>
-        <div class="nav-container">
+  <!-- Header / navigation -->
+  <header>
+    <div class="nav-container">
 
-            <!-- Main navigation -->
-            <nav class="navbar">
+      <!-- Main navigation -->
+      <nav class="navbar">
 
-                <!--logo + navigation -->
-                <div class="nav-left">
+        <!-- Logo + navigation links -->
+        <div class="nav-left">
 
-                    <!-- Logo  -->
-                    <a href="/">
-                        <img src="image/logo.png" alt="Animal Market logo" class="logo">
-                    </a>
+          <!-- Logo -->
+          <a href="/">
+            <img src="image/logo.png" alt="Animal Market logo" class="logo">
+          </a>
 
-                    <!-- Primary navigation links -->
-                    <ul class="nav-links">
-                        <li><a href="#">Catégories</a></li>
-                        <li><a href="#">Avantages</a></li>
-                        <li><a href="#">Promotions</a></li>
-                    </ul>
+          <!-- Primary navigation links -->
+          <ul class="nav-links">
+            <li><a href="#">Catégories</a></li>
+            <li><a href="#">Avantages</a></li>
+            <li><a href="#">Promotions</a></li>
+          </ul>
 
-                </div>
-
-                <!-- Call-to-action button -->
-                <a href="#" class="btn">Télécharger l'app</a>
-
-            </nav>
         </div>
-    </header>
 
+        <!-- Call-to-action button -->
+        <a href="#" class="btn">Télécharger l'app</a>
 
-    <!-- MAIN CONTENT -->
-    <main>
+      </nav>
+    </div>
+  </header>
 
-        <!--  message + download buttons -->
-        <section class="hero">
+  <!-- Main content -->
+  <main>
 
-            <div class="hero-content">
+    <!-- Hero section -->
+    <section class="hero">
+      <div class="hero-content">
 
-                <!-- Main heading -->
-                <h1>
-                    Tout pour vos<br>
-                    animaux, livré<br>
-                    chez vous
-                  </h1>
+        <!-- Main heading -->
+        <h1>
+          Tout pour vos<br>
+          animaux, livré<br>
+          chez vous
+        </h1>
 
-                <!-- Description -->
-                <p>
-                    Commandez croquettes, accessoires et produits
-                    de soin facilement depuis l'application.
-                </p>
+        <!-- Description -->
+        <p>
+          Commandez croquettes, accessoires et produits
+          de soin facilement depuis l'application.
+        </p>
 
-                <!-- App store buttons -->
-                <div class="hero-buttons">
+        <!-- App store buttons -->
+        <div class="hero-buttons">
 
-                    <!-- App Store button -->
-                    <a href="#" class="store-btn">
-                        <img src="image/apple.png" alt="Download on the App Store">
-                        <div class="store-text">
-                            <span>Télécharger sur</span>
-                            <strong>App Store</strong>
-                        </div>
-                    </a>
-
-                    <!-- Google Play button -->
-                    <a href="#" class="store-btn">
-                        <img src="image/play.png" alt="Get it on Google Play">
-                        <div class="store-text">
-                            <span>Disponible sur</span>
-                            <strong>Google Play</strong>
-                        </div>
-                    </a>
-
-                </div>
-
-                <!-- ratings & users -->
-                <ul class="hero-info">
-
-                    <li class="info-item">
-                        <img src="image/icon.png" alt="">
-                        4.8/5 sur les stores
-                    </li>
-
-                    <li class="info-item">
-                        <img src="image/vector.png" alt="">
-                        +5 000 clients
-                    </li>
-
-                </ul>
-
+          <!-- App Store button -->
+          <a href="#" class="store-btn">
+            <img src="image/apple.png" alt="Download on the App Store">
+            <div class="store-text">
+              <span>Télécharger sur</span>
+              <strong>App Store</strong>
             </div>
-        </section>
+          </a>
+
+          <!-- Google Play button -->
+          <a href="#" class="store-btn">
+            <img src="image/play.png" alt="Get it on Google Play">
+            <div class="store-text">
+              <span>Disponible sur</span>
+              <strong>Google Play</strong>
+            </div>
+          </a>
+
+        </div>
+
+        <!-- Ratings and customer count -->
+        <ul class="hero-info">
+          <li class="info-item">
+            <img src="image/icon.png" alt="">
+            4.8/5 sur les stores
+          </li>
+
+          <li class="info-item">
+            <img src="image/vector.png" alt="">
+            +5 000 clients
+          </li>
+        </ul>
+
+      </div>
+    </section>
 
     <!-- Categories section -->
-<section class="categories scroll-section">
-    <div class="categories-container">
-  
-      <!-- Header -->
-      <div class="categories-header">
-        <h2>Category</h2>
-        <a href="#" class="view-all">View All</a>
+    <section class="categories scroll-section">
+      <div class="categories-container">
+
+        <!-- Section header -->
+        <div class="categories-header">
+          <h2>Category</h2>
+          <a href="#" class="view-all">View All</a>
+        </div>
+
+        <!-- Categories list -->
+        <ul class="categories-list">
+
+          <!-- Category 1 -->
+          <li>
+            <a href="#" class="category-card">
+              <picture>
+                <source srcset="image/dog.avif" type="image/avif">
+                <source srcset="image/dog.webp" type="image/webp">
+                <img src="image/dog.png" alt="Dog category" loading="lazy">
+              </picture>
+            </a>
+          </li>
+
+          <!-- Category 2 -->
+          <li>
+            <a href="#" class="category-card">
+              <picture>
+                <source srcset="image/cat.avif" type="image/avif">
+                <source srcset="image/cat.webp" type="image/webp">
+                <img src="image/cat.png" alt="Cat category" loading="lazy">
+              </picture>
+            </a>
+          </li>
+
+          <!-- Category 3 -->
+          <li>
+            <a href="#" class="category-card">
+              <picture>
+                <source srcset="image/bird.avif" type="image/avif">
+                <source srcset="image/bird.webp" type="image/webp">
+                <img src="image/bird.png" alt="Bird category" loading="lazy">
+              </picture>
+            </a>
+          </li>
+
+          <!-- Category 4 -->
+          <li>
+            <a href="#" class="category-card">
+              <picture>
+                <source srcset="image/rodent.avif" type="image/avif">
+                <source srcset="image/rodent.webp" type="image/webp">
+                <img src="image/rodent.png" alt="Rodent category" loading="lazy">
+              </picture>
+            </a>
+          </li>
+
+          <!-- Category 5 -->
+          <li>
+            <a href="#" class="category-card">
+              <picture>
+                <source srcset="image/accessories.avif" type="image/avif">
+                <source srcset="image/accessories.webp" type="image/webp">
+                <img src="image/accessories.png" alt="Accessories category" loading="lazy">
+              </picture>
+            </a>
+          </li>
+
+        </ul>
+
       </div>
-  
-      <!-- Categories list -->
-      <ul class="categories-list">
-        <!-- Category 1: Dog -->
-        <li>
-          <a href="#" class="category-card">
-            <picture>
-              <source srcset="image/dog.avif" type="image/avif">
-              <source srcset="image/dog.webp" type="image/webp">
-              <img src="image/dog.png" alt="Dog category" loading="lazy">
-            </picture>
-          </a>
-        </li>
-  
-        <!-- Category 2: Cat -->
-        <li>
-          <a href="#" class="category-card">
-            <picture>
-              <source srcset="image/cat.avif" type="image/avif">
-              <source srcset="image/cat.webp" type="image/webp">
-              <img src="image/cat.png" alt="Cat category" loading="lazy">
-            </picture>
-          </a>
-        </li>
-  
-        <!-- Category 3: Bird -->
-        <li>
-          <a href="#" class="category-card">
-            <picture>
-              <source srcset="image/bird.avif" type="image/avif">
-              <source srcset="image/bird.webp" type="image/webp">
-              <img src="image/bird.png" alt="Bird category" loading="lazy">
-            </picture>
-          </a>
-        </li>
-  
-        <!-- Category 4: Rodents -->
-        <li>
-          <a href="#" class="category-card">
-            <picture>
-              <source srcset="image/rodent.avif" type="image/avif">
-              <source srcset="image/rodent.webp" type="image/webp">
-              <img src="image/rodent.png" alt="Rodent category" loading="lazy">
-            </picture>
-          </a>
-        </li>
-  
-        <!-- Category 5: Accessories -->
-        <li>
-          <a href="#" class="category-card">
-            <picture>
-              <source srcset="image/accessories.avif" type="image/avif">
-              <source srcset="image/accessories.webp" type="image/webp">
-              <img src="image/accessories.png" alt="Accessories category" loading="lazy">
-            </picture>
-          </a>
-        </li>
-      </ul>
-  
-    </div>
-  </section>
+    </section>
 
+    <!-- Benefits section -->
+    <section class="benefits scroll-section">
+      <div class="benefits-container">
 
-  <!-- Benefits section -->
-  <section class="benefits scroll-section">
-    <div class="benefits-container">
-  
-      <!-- Header -->
-      <div class="benefits-header">
-        <h2>Pourquoi choisir Animal Market ?</h2>
-        <p>Une expérience d'achat simple et rapide</p>
+        <!-- Section header -->
+        <div class="benefits-header">
+          <h2>Pourquoi choisir Animal Market ?</h2>
+          <p>Une expérience d'achat simple et rapide</p>
+        </div>
+
+        <!-- Benefits list -->
+        <ul class="benefits-list">
+
+          <!-- Benefit 1 -->
+          <li>
+            <article class="benefit-card">
+              <div class="benefit-icon">
+                <img src="image/truck.png" alt="Fast delivery">
+              </div>
+
+              <h3>Livraison rapide</h3>
+
+              <p>
+                Livraison gratuite dès 49€ d'achat.
+                Recevez vos produits en 24-48h.
+              </p>
+            </article>
+          </li>
+
+          <!-- Benefit 2 -->
+          <li>
+            <article class="benefit-card">
+              <div class="benefit-icon">
+                <img src="image/tag.png" alt="Competitive prices">
+              </div>
+
+              <h3>Prix compétitifs</h3>
+
+              <p>
+                Les meilleurs prix du marché
+                avec des promotions régulières.
+              </p>
+            </article>
+          </li>
+
+          <!-- Benefit 3 -->
+          <li>
+            <article class="benefit-card">
+              <div class="benefit-icon">
+                <img src="image/shield.png" alt="Wide choice of brands">
+              </div>
+
+              <h3>Large choix de marques</h3>
+
+              <p>
+                Plus de 200 marques reconnues
+                pour tous les animaux.
+              </p>
+            </article>
+          </li>
+
+          <!-- Benefit 4 -->
+          <li>
+            <article class="benefit-card">
+              <div class="benefit-icon">
+                <img src="image/phone.png" alt="Simple ordering">
+              </div>
+
+              <h3>Commande simple</h3>
+
+              <p>
+                Interface intuitive pour commander
+                en quelques clics seulement.
+              </p>
+            </article>
+          </li>
+
+        </ul>
+
       </div>
-  
-   <!-- List of all benefit cards -->
-<ul class="benefits-list">
+    </section>
 
-    <!-- Benefit 1: Fast delivery -->
-    <li>
-      <article class="benefit-card">
-  
-        <!-- Icon inside a circle -->
-        <div class="benefit-icon">
-          <img src="image/truck.png" alt="Livraison rapide">
-        </div>
-  
-        <!-- Title of the benefit -->
-        <h3>Livraison rapide</h3>
-  
-        <!-- Description of the benefit -->
-        <p>
-          Livraison gratuite dès 49€ d'achat.
-          Recevez vos produits en 24-48h.
-        </p>
-  
-      </article>
-    </li>
-  
-  
-    <!-- Benefit 2: Competitive prices -->
-    <li>
-      <article class="benefit-card">
-  
-        <!-- Icon inside a circle -->
-        <div class="benefit-icon">
-          <img src="image/tag.png" alt="Prix compétitifs">
-        </div>
-  
-        <!-- Title of the benefit -->
-        <h3>Prix compétitifs</h3>
-  
-        <!-- Description -->
-        <p>
-          Les meilleurs prix du marché
-          avec des promotions régulières.
-        </p>
-  
-      </article>
-    </li>
-  
-  
-    <!-- Benefit 3: Wide range of brands -->
-    <li>
-      <article class="benefit-card">
-  
-        <!-- Icon inside a circle -->
-        <div class="benefit-icon">
-          <img src="image/shield.png" alt="Large choix de marques">
-        </div>
-  
-        <!-- Title -->
-        <h3>Large choix de marques</h3>
-  
-        <!-- Description -->
-        <p>
-          Plus de 200 marques reconnues
-          pour tous les animaux.
-        </p>
-  
-      </article>
-    </li>
-  
-  
-    <!-- Benefit 4: Easy ordering -->
-    <li>
-      <article class="benefit-card">
-  
-        <!-- Icon inside a circle -->
-        <div class="benefit-icon">
-          <img src="image/phone.png" alt="Commande simple">
-        </div>
-  
-        <!-- Title -->
-        <h3>Commande simple</h3>
-  
-        <!-- Description -->
-        <p>
-          Interface intuitive pour commander
-          en quelques clics seulement.
-        </p>
-  
-      </article>
-    </li>
-  
-  </ul>
-  
-    </div>
-  </section>
+    <!-- App preview section -->
+    <section class="app-preview scroll-section">
+      <div class="app-preview-container">
 
+        <!-- Section header -->
+        <div class="app-preview-header">
+          <h2>Une application pensée pour vous</h2>
+          <p>Découvrez toutes les fonctionnalités de l'app Animal Market</p>
+        </div>
 
+        <!-- App screens -->
+        <ul class="app-preview-list">
 
-  <!-- App preview section -->
-  <section class="app-preview scroll-section">
-    <div class="app-preview-container">
-  
-      <!-- Section header -->
-      <div class="app-preview-header">
-        <h2>Une application pensée pour vous</h2>
-        <p>Découvrez toutes les fonctionnalités de l'app Animal Market</p>
+          <!-- Screen 1 -->
+          <li class="app-preview-item">
+            <picture>
+              <source srcset="image/screen-home.avif" type="image/avif">
+              <source srcset="image/screen-home.webp" type="image/webp">
+              <img src="image/screen-home.png" alt="App home screen" loading="lazy">
+            </picture>
+
+            <h3>Accueil</h3>
+            <p>Naviguez facilement entre les catégories</p>
+          </li>
+
+          <!-- Screen 2 -->
+          <li class="app-preview-item">
+            <picture>
+              <source srcset="image/screen-product.avif" type="image/avif">
+              <source srcset="image/screen-product.webp" type="image/webp">
+              <img src="image/screen-product.png" alt="Product details screen" loading="lazy">
+            </picture>
+
+            <h3>Détail produit</h3>
+            <p>Toutes les informations en un coup d'œil</p>
+          </li>
+
+          <!-- Screen 3 -->
+          <li class="app-preview-item">
+            <picture>
+              <source srcset="image/screen-cart.avif" type="image/avif">
+              <source srcset="image/screen-cart.webp" type="image/webp">
+              <img src="image/screen-cart.png" alt="Cart and checkout screen" loading="lazy">
+            </picture>
+
+            <h3>Panier & paiement</h3>
+            <p>Checkout rapide et sécurisé</p>
+          </li>
+
+        </ul>
+
       </div>
-  
-      <!-- App screens -->
-      <ul class="app-preview-list">
-  
-        <!-- Screen 1 -->
-        <li class="app-preview-item">
-          <picture>
-            <source srcset="image/screen-home.avif" type="image/avif">
-            <source srcset="image/screen-home.webp" type="image/webp">
-            <img src="image/screen-home.png" alt="Écran d'accueil de l'application" loading="lazy">
-          </picture>
-  
-          <h3>Accueil</h3>
-          <p>Naviguez facilement entre les catégories</p>
-        </li>
-  
-        <!-- Screen 2 -->
-        <li class="app-preview-item">
-          <picture>
-            <source srcset="image/screen-product.avif" type="image/avif">
-            <source srcset="image/screen-product.webp" type="image/webp">
-            <img src="image/screen-product.png" alt="Écran détail produit" loading="lazy">
-          </picture>
-  
-          <h3>Détail produit</h3>
-          <p>Toutes les informations en un coup d'œil</p>
-        </li>
-  
-        <!-- Screen 3 -->
-        <li class="app-preview-item">
-          <picture>
-            <source srcset="image/screen-cart.avif" type="image/avif">
-            <source srcset="image/screen-cart.webp" type="image/webp">
-            <img src="image/screen-cart.png" alt="Écran panier et paiement" loading="lazy">
-          </picture>
-  
-          <h3>Panier & paiement</h3>
-          <p>Checkout rapide et sécurisé</p>
-        </li>
-  
-      </ul>
-  
-    </div>
-  </section>
-        
- </main>
+    </section>
 
+    <!-- Promotions section -->
+    <section class="promotions scroll-section">
+      <div class="promotions-container">
+
+        <!-- Section header -->
+        <div class="promotions-header">
+          <h2>Promotions</h2>
+          <a href="#" class="view-all">View All</a>
+        </div>
+
+        <!-- Promo banner -->
+        <div class="promo-banner">
+          <h3>-10% sur votre première commande</h3>
+          <p>Utilisez le code : BIENVENUE20</p>
+        </div>
+
+        <!-- Product list -->
+        <ul class="promotions-list">
+
+          <!-- Product 1 -->
+          <li>
+            <article class="product-card">
+
+              <a href="#" class="product-image-wrapper">
+                <span class="discount-badge">-20%</span>
+
+                <picture>
+                  <source srcset="image/product-food.avif" type="image/avif">
+                  <source srcset="image/product-food.webp" type="image/webp">
+                  <img src="image/product-food.png" alt="Premium dog food bag 15kg" loading="lazy">
+                </picture>
+              </a>
+
+              <div class="product-content">
+                <h3>Croquettes Premium pour Chiens - Sac 15kg</h3>
+
+                <div class="product-rating">
+                  <img src="image/stars-5.png" alt="5-star rating" class="stars">
+                </div>
+
+                <div class="product-footer">
+                  <div class="product-price">
+                    <span class="current-price">39.99€</span>
+                    <span class="old-price">49.99€</span>
+                  </div>
+
+                  <a href="#" class="add-to-cart">
+                    <img src="image/plus.png" alt="Add to cart">
+                  </a>
+                </div>
+              </div>
+
+            </article>
+          </li>
+
+          <!-- Product 2 -->
+          <li>
+            <article class="product-card">
+
+              <a href="#" class="product-image-wrapper">
+                <span class="discount-badge">-25%</span>
+
+                <picture>
+                  <source srcset="image/product-bone.avif" type="image/avif">
+                  <source srcset="image/product-bone.webp" type="image/webp">
+                  <img src="image/product-bone.png" alt="Interactive cat toy" loading="lazy">
+                </picture>
+              </a>
+
+              <div class="product-content">
+                <h3>Jouet interactif pour Chat avec corde à chat</h3>
+
+                <div class="product-rating">
+                  <img src="image/stars-4.png" alt="4-star rating" class="stars">
+                </div>
+
+                <div class="product-footer">
+                  <div class="product-price">
+                    <span class="current-price">12.99€</span>
+                    <span class="old-price">16.99€</span>
+                  </div>
+
+                  <a href="#" class="add-to-cart">
+                    <img src="image/plus.png" alt="Add to cart">
+                  </a>
+                </div>
+              </div>
+
+            </article>
+          </li>
+
+          <!-- Product 3 -->
+          <li>
+            <article class="product-card">
+
+              <a href="#" class="product-image-wrapper">
+                <span class="discount-badge">-25%</span>
+
+                <picture>
+                  <source srcset="image/product-litter.avif" type="image/avif">
+                  <source srcset="image/product-litter.webp" type="image/webp">
+                  <img src="image/product-litter.png" alt="Plant-based clumping litter 10L" loading="lazy">
+                </picture>
+              </a>
+
+              <div class="product-content">
+                <h3>Litière végétale agglomérante 10L</h3>
+
+                <div class="product-rating">
+                  <img src="image/stars-5.png" alt="5-star rating" class="stars">
+                </div>
+
+                <div class="product-footer">
+                  <div class="product-price">
+                    <span class="current-price">8.99€</span>
+                    <span class="old-price">11.99€</span>
+                  </div>
+
+                  <a href="#" class="add-to-cart">
+                    <img src="image/plus.png" alt="Add to cart">
+                  </a>
+                </div>
+              </div>
+
+            </article>
+          </li>
+
+          <!-- Product 4 -->
+          <li>
+            <article class="product-card">
+
+              <a href="#" class="product-image-wrapper">
+                <span class="discount-badge">-35%</span>
+
+                <picture>
+                  <source srcset="image/product-leash.avif" type="image/avif">
+                  <source srcset="image/product-leash.webp" type="image/webp">
+                  <img src="image/product-leash.png" alt="Retractable leash 5m" loading="lazy">
+                </picture>
+              </a>
+
+              <div class="product-content">
+                <h3>Laisse rétractable 5m - Toutes tailles</h3>
+
+                <div class="product-rating">
+                  <img src="image/stars-4.png" alt="4-star rating" class="stars">
+                </div>
+
+                <div class="product-footer">
+                  <div class="product-price">
+                    <span class="current-price">19.99€</span>
+                    <span class="old-price">29.99€</span>
+                  </div>
+
+                  <a href="#" class="add-to-cart">
+                    <img src="image/plus.png" alt="Add to cart">
+                  </a>
+                </div>
+              </div>
+
+            </article>
+          </li>
+
+        </ul>
+
+      </div>
+    </section>
+
+    <!-- Testimonials section -->
+    <section class="testimonials scroll-section">
+      <div class="testimonials-container">
+
+        <!-- Section header -->
+        <div class="testimonials-header">
+          <h2>Ils nous font confiance</h2>
+          <p>Des milliers de propriétaires satisfaits</p>
+        </div>
+
+        <!-- Stats -->
+        <ul class="testimonials-stats">
+          <li class="stat-item">
+            <strong class="stat-value stat-value--blue">+5 000</strong>
+            <span class="stat-label">Clients satisfaits</span>
+          </li>
+
+          <li class="stat-item">
+            <strong class="stat-value stat-value--orange">4.8/5</strong>
+            <span class="stat-label">Note moyenne</span>
+          </li>
+
+          <li class="stat-item">
+            <strong class="stat-value stat-value--cyan">+10 000</strong>
+            <span class="stat-label">Produits livrés</span>
+          </li>
+        </ul>
+
+        <!-- Reviews -->
+        <ul class="reviews-list">
+
+          <!-- Review 1 -->
+          <li>
+            <article class="review-card">
+              <div class="review-top">
+                <img src="image/avatar-marie.png" alt="Marie Dupont" class="review-avatar">
+
+                <div class="review-meta">
+                  <h3>Marie Dupont</h3>
+                  <img src="image/stars.png" alt="5-star rating" class="review-stars">
+                </div>
+              </div>
+
+              <p class="review-text">
+                “Application très intuitive ! J'ai reçu ma commande en 24h. Les prix sont vraiment compétitifs.”
+              </p>
+            </article>
+          </li>
+
+          <!-- Review 2 -->
+          <li>
+            <article class="review-card">
+              <div class="review-top">
+                <img src="image/avatar-thomas.png" alt="Thomas Martin" class="review-avatar">
+
+                <div class="review-meta">
+                  <h3>Thomas Martin</h3>
+                  <img src="image/stars.png" alt="5-star rating" class="review-stars">
+                </div>
+              </div>
+
+              <p class="review-text">
+                “Je commande toutes les croquettes de mon chien ici. Large choix et livraison impeccable !”
+              </p>
+            </article>
+          </li>
+
+          <!-- Review 3 -->
+          <li>
+            <article class="review-card">
+              <div class="review-top">
+                <img src="image/avatar-sophie.png" alt="Sophie Bernard" class="review-avatar">
+
+                <div class="review-meta">
+                  <h3>Sophie Bernard</h3>
+                  <img src="image/stars.png" alt="5-star rating" class="review-stars">
+                </div>
+              </div>
+
+              <p class="review-text">
+                “Service client au top ! Mon chat adore les nouveaux jouets que j'ai commandés.”
+              </p>
+            </article>
+          </li>
+
+        </ul>
+
+        <!-- Trust features -->
+        <ul class="trust-features">
+          <li class="trust-feature">
+            <img src="image/shield-big.png" alt="" class="trust-icon">
+            <div>
+              <h3>Paiement sécurisé</h3>
+              <p>SSL & 3D Secure</p>
+            </div>
+          </li>
+
+          <li class="trust-feature">
+            <img src="image/truck-big.png" alt="" class="trust-icon">
+            <div>
+              <h3>Livraison rapide</h3>
+              <p>24-48h en France</p>
+            </div>
+          </li>
+
+          <li class="trust-feature">
+            <img src="image/star-big.png" alt="" class="trust-icon">
+            <div>
+              <h3>Satisfaction garantie</h3>
+              <p>Retour sous 30 jours</p>
+            </div>
+          </li>
+        </ul>
+
+      </div>
+    </section>
+
+    <!-- Download CTA section -->
+    <section class="cta-download scroll-section">
+      <div class="cta-download-container">
+
+        <!-- Main title -->
+        <h2>Téléchargez Animal Market et prenez soin de vos animaux en toute simplicité</h2>
+
+        <!-- Subtitle -->
+        <p class="cta-download-text">
+          Rejoignez des milliers de propriétaires qui font confiance à Animal Market
+        </p>
+
+        <!-- Download buttons -->
+        <div class="cta-download-buttons">
+          <a href="#" class="store-btn">
+            <img src="image/apple.png" alt="Download on the App Store">
+            <div class="store-text">
+              <span>Télécharger sur</span>
+              <strong>App Store</strong>
+            </div>
+          </a>
+
+          <a href="#" class="store-btn">
+            <img src="image/play.png" alt="Get it on Google Play">
+            <div class="store-text">
+              <span>Disponible sur</span>
+              <strong>Google Play</strong>
+            </div>
+          </a>
+        </div>
+
+        <!-- Small note -->
+        <p class="cta-download-note">Disponible gratuitement sur iOS et Android</p>
+
+      </div>
+    </section>
+
+  </main>
+
+  <!-- Footer -->
+  <footer class="site-footer">
+    <div class="site-footer-container">
+
+      <!-- Footer top -->
+      <div class="site-footer-top">
+
+        <!-- Brand column -->
+        <div class="footer-brand">
+          <a href="/">
+            <img src="image/logo.png" alt="Animal Market logo" class="footer-logo">
+          </a>
+
+          <p>
+            Votre animalerie en ligne pour le bonheur de vos compagnons.
+          </p>
+        </div>
+
+        <!-- Footer links -->
+        <div class="footer-links">
+
+          <div class="footer-column">
+            <h3>À propos</h3>
+            <ul>
+              <li><a href="#">Qui sommes-nous</a></li>
+              <li><a href="#">Notre histoire</a></li>
+              <li><a href="#">Nos engagements</a></li>
+            </ul>
+          </div>
+
+          <div class="footer-column">
+            <h3>Aide</h3>
+            <ul>
+              <li><a href="#">Contact</a></li>
+              <li><a href="#">FAQ</a></li>
+              <li><a href="#">Livraison</a></li>
+              <li><a href="#">Retours</a></li>
+            </ul>
+          </div>
+
+          <div class="footer-column">
+            <h3>Légal</h3>
+            <ul>
+              <li><a href="#">Confidentialité</a></li>
+              <li><a href="#">CGV</a></li>
+              <li><a href="#">Mentions légales</a></li>
+            </ul>
+          </div>
+
+        </div>
+      </div>
+
+      <!-- Footer bottom -->
+      <div class="site-footer-bottom">
+        <p>© 2026 Animal Market. Tous droits réservés.</p>
+
+        <div class="footer-socials">
+          <a href="#"><img src="image/facebook.png" alt="Facebook"></a>
+          <a href="#"><img src="image/instagram.png" alt="Instagram"></a>
+          <a href="#"><img src="image/twitter.png" alt="Twitter"></a>
+        </div>
+      </div>
+
+    </div>
+  </footer>
 
 </body>
-
 </html>

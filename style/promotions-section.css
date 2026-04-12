@@ -1,0 +1,189 @@
+/* 
+   PROMOTIONS SECTION
+   Promo banner and product cards
+*/
+
+.promotions {
+    padding: 72px 0 78px;
+    background-color: #ffffff;
+  }
+  
+  .promotions-container {
+    max-width: 1120px;
+    margin: 0 auto;
+  }
+  
+  .promotions-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 28px;
+  }
+  
+  .promotions-header h2 {
+    margin: 0;
+    font-family: var(--font-heading);
+    font-size: 28px;
+    line-height: 36px;
+    font-weight: 700;
+    color: #2c2c2c;
+  }
+  
+  .promo-banner {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    min-height: 110px;
+    margin-bottom: 40px;
+    border-radius: 24px;
+    text-align: center;
+    background: linear-gradient(90deg, #007ECD 0%, #0094C4 100%);
+    box-shadow: 0 12px 28px rgba(0, 0, 0, 0.08);
+  }
+  
+  .promo-banner h3 {
+    margin: 0 0 8px;
+    font-family: var(--font-heading);
+    font-size: 24px;
+    line-height: 32px;
+    font-weight: 700;
+    color: var(--color-white);
+  }
+  
+  .promo-banner p {
+    margin: 0;
+    font-family: var(--font-primary);
+    font-size: 16px;
+    line-height: 24px;
+    color: rgba(255, 255, 255, 0.9);
+  }
+  
+  .promotions-list {
+    list-style: none;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .product-card {
+    background-color: var(--color-white);
+    border-radius: 18px;
+    overflow: hidden;
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.06);
+  }
+  
+  .product-image-wrapper {
+    position: relative;
+    display: block;
+    width: 100%;
+    height: 235px;
+    text-decoration: none;
+    overflow: hidden;
+  }
+  
+  .product-image-wrapper img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+    transition: transform 0.3s ease;
+  }
+  
+
+  .product-rating img {
+    height: 14px;
+    width: auto;
+    display: block;
+  }
+  
+  .add-to-cart img {
+    width: 14px;
+    height: 14px;
+  }
+
+  
+  .product-card:hover .product-image-wrapper img {
+    transform: scale(1.04);
+  }
+  
+  .discount-badge {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    z-index: 2;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    min-width: 54px;
+    height: 30px;
+    padding: 0 10px;
+    border-radius: 999px;
+    background-color: #f4a04c;
+    color: var(--color-white);
+    font-family: var(--font-primary);
+    font-size: 14px;
+    line-height: 20px;
+    font-weight: 700;
+  }
+  
+  .product-content {
+    padding: 14px 14px 16px;
+  }
+  
+  .product-content h3 {
+    margin: 0 0 8px;
+    font-family: var(--font-heading);
+    font-size: 15px;
+    line-height: 24px;
+    font-weight: 700;
+    color: #2c2c2c;
+  }
+  
+
+  .product-footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 12px;
+  }
+  
+  .product-price {
+    display: flex;
+    align-items: baseline;
+    gap: 8px;
+  }
+  
+  .current-price {
+    font-family: var(--font-heading);
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 700;
+    color: #111111;
+  }
+  
+  .old-price {
+    font-family: var(--font-primary);
+    font-size: 14px;
+    line-height: 20px;
+    color: #b0b0b0;
+    text-decoration: line-through;
+  }
+  
+  .add-to-cart {
+    width: 28px;
+    height: 28px;
+    border-radius: 50%;
+    background-color: #3b7fd0;
+    color: var(--color-white);
+    text-decoration: none;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 22px;
+    line-height: 1;
+    flex-shrink: 0;
+  }
+
+
