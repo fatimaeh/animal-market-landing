@@ -6,7 +6,7 @@
 /* Main section */
 .promotions {
   padding: 72px 0 78px;
-  background-color: #ffffff;
+  background-color:var(--color-white);
 }
 
 /* Centered container */

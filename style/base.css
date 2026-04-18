@@ -15,12 +15,41 @@
     --color-text-blue: #186294;
   
     /* Fonts */
-    --font-primary: "Inter", sans-serif;
-    --font-heading: "Poppins", sans-serif;
+
+      --font-primary: "Poppins", sans-serif;  /* hele site */
+      --font-ui: "Inter", sans-serif;
+    
+    }
+
+
+
+    @font-face {
+      font-family: 'Inter';
+      src: url('../fonts/Inter-Regular.woff2') format('woff2');
+      font-weight: 400;
+      font-style: normal;
+      font-display: swap;
+    }
+
+    @font-face {
+      font-family: 'Poppins';
+      src: url('../fonts/poppins-v24-latin-regular.woff2') format('woff2');
+      font-weight: 400;
+      font-style: normal;
+      font-display: swap;
+    }
+    
+    @font-face {
+      font-family: 'Poppins';
+      src: url('../fonts/poppins-v24-latin-500.woff2') format('woff2');
+      font-weight: 500;
+      font-style: normal;
+      font-display: swap;
+    }
+
+body {
+  font-family: var(--font-primary);
 }
-
-
-
 /* Scroll reveal effect */
 
 

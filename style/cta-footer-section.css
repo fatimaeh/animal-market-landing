@@ -26,6 +26,7 @@
   letter-spacing: 0.35px;
   font-weight: 700;
   color: var(--color-white);
+  font-family: var(--font-ui);
 }
 
 /* CTA description text */
@@ -34,7 +35,8 @@
   font-size: 16px;
   line-height: 28px;
   letter-spacing: -0.45px;
-  color:#FFFFFF;
+  color:var(--color-white);
+  font-family: var(--font-ui);
 }
 
 /* Buttons container */
@@ -51,6 +53,7 @@
   font-size: 15px;
   line-height: 22px;
   color: rgba(255, 255, 255, 0.9);
+  font-family: var(--font-ui);
 }
 
 /* Footer section */
@@ -93,6 +96,7 @@
   font-size: 15px;
   line-height: 28px;
   color: rgba(255, 255, 255, 0.72);
+  font-family: var(--font-ui);
 }
 
 /* Footer links columns */
@@ -108,6 +112,7 @@
   line-height: 24px;
   font-weight: 700;
   color: var(--color-white);
+  font-family: var(--font-ui);
 }
 
 /* Remove default list styles */
@@ -130,11 +135,12 @@
   color: rgba(255, 255, 255, 0.72);
   text-decoration: none;
   transition: color 0.25s ease, transform 0.2s ease;
+  font-family: var(--font-ui);
 }
 
 /* Hover effect for links */
 .footer-column a:hover {
-  color: #007ECD;
+  color: var(--color-primary);
   transform: translateX(4px);
 }
 
@@ -171,11 +177,12 @@
   align-items: center;
   justify-content: center;
   transition: background-color 0.25s ease, transform 0.2s ease;
+  font-family: var(--font-ui);
 }
 
 /* Hover effect for social icons */
 .footer-socials a:hover {
-  background-color: #007ECD;
+  background-color: var(--color-primary);
   transform: translateY(-2px);
 }
 
